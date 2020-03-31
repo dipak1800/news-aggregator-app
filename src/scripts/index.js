@@ -1,4 +1,4 @@
-   
+   //CLICK ON THE NEWS ICON ON THE TOP TO GET DETAILS ABOUT PROJECT
    const url = 'https://newsapi.org/v2/top-headlines?country=in&apiKey=9d7ddb7c0b54416688c9a8b49b2274cb';
 
 var searchBox = document.getElementById("search");
@@ -18,7 +18,7 @@ searchBox.addEventListener("keypress",(event)=>{
             getNews(url); 
         }
     }   
-})
+});
 var loadingUntil;
 
  beforeLoading=()=>{
@@ -26,7 +26,7 @@ var loadingUntil;
     loadingUntil=setTimeout(afterLoading,2000);
 
     
-}
+};
 afterLoading=()=>{
     document.querySelector("#loader").style.display="none";
     document.querySelector("#news-section").style.display="block";
@@ -44,13 +44,13 @@ afterLoading=()=>{
         saveInCookies: false, 
         label: '🌓', 
         autoMatchOsTheme: true 
-      }
+      };
       
       const darkmode = new Darkmode(options);
       darkmode.showWidget();
    
     
-}
+};
 
 getNews= async(url)=>{
     const fetchData=await fetch(url);
@@ -74,7 +74,7 @@ getNews= async(url)=>{
  let noResultsFound=document.querySelector(" #news-section");
  noResultsFound.innerHTML=`<h3> ${usersearch } ??? No such article found.</h3> `
     }
-}
+};
 getNews(url);
 
 window.addEventListener('scroll',()=>{
