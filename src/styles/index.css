@@ -77,12 +77,12 @@ grid-row-gap: 30px;
     transform: scale(1.01);
     border-radius: 15px;
   }
-  .article-title{
+  .card-title{
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-justify: auto;
   }
-  .article-description{
+  .card-text{
     font-family: 'Lobster', cursive;
     font-size: 16px;
   }
@@ -131,12 +131,12 @@ grid-column-gap: 20px;
     transform: scale(1.01);
     border-radius: 15px;
   }
-  .article-title{
+  .card-title{
     font-family: 'Anton', sans-serif;
     font-size: 2vw;
     text-justify: auto;
   }
-  .article-description{
+  .card-text{
     font-family: 'Lobster', cursive;
     font-size: 1.4vw;
   }
