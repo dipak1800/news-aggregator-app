@@ -33,7 +33,6 @@ body {
   #search{
       border: none;
       border-bottom: 3px solid black;
-      background-color:none;
       color: rgba(51,102,255,0.8);
       width: 90%;
       margin:1% 5% 0 5%;
@@ -173,10 +172,14 @@ display: none;
 background: rgba(51,102,255,1);    }
 
 marquee{
-  color: green;
-  font-size: 21px;
+  color: rgba(51,102,255,1);
+  font-size: 25px;
   font-family: 'Anton', sans-serif;
   background-color: black;
   width: 100%;
   height: auto;
+}
+.spinner-border{
+  color:transparent;
+  background-color: transparent;
 }
