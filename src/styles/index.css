@@ -86,7 +86,7 @@ grid-row-gap: 30px;
     font-family: 'Lobster', cursive;
     font-size: 16px;
   }
-  .article-author{
+  .card-text{
     font-family: 'Orbitron', sans-serif;
     font-size: 14px;
   } 
@@ -140,7 +140,7 @@ grid-column-gap: 20px;
     font-family: 'Lobster', cursive;
     font-size: 1.4vw;
   }
-  .article-author{
+  .card-text{
     font-family: 'Orbitron', sans-serif;
     font-size: 1.5;
   } 

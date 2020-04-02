@@ -88,10 +88,10 @@
            result.articles.forEach((element)=>{
                output+=
                `<li class="article">
-                   <img class="article-img img-responsive" src="${element.urlToImage}" alt="Image Not Availiable" style="width:100%;border-radius:5px;height:auto;padding:15px">
-                   <h2 class=" card-title" style="padding:15px">${element.title}</h2>
-                   <p class=" card-text" style="padding:15px">${element.description}</p>
-                   <span class="article-author card-text " style="padding:15px">Author:  ${element.author}</span> <br>
+                   <img class="img-responsive" src="${element.urlToImage}" alt="Image Not Availiable" style="width:100%;border-radius:5px;height:auto;padding:15px">
+                   <h2 class="card-title" style="padding:15px">${element.title}</h2>
+                   <p class="card-text" style="padding:15px">${element.description}</p>
+                   <span class="card-text" style="padding:15px">Author:  ${element.author}</span> <br>
                    <br> <a href=${element.url} class="article-link btn btn-primary mb-1" target='_blank'><em>Read More At: ${element.source.name}</em></a></li>`;
            });
            output += '';
