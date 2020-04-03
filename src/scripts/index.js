@@ -98,7 +98,7 @@
            document.getElementById('news-articles').innerHTML=output;
        } else if(result.articles.length == 0){
     let noResultsFound=document.querySelector(".not-found");
-    noResultsFound.innerHTML=`<h3>No article was found based on the search.</h3> `;    
+    noResultsFound.innerHTML="No article was found based on the search.";    
 }
    };
    getNews(url);
