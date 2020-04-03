@@ -96,10 +96,10 @@
            });
            output += '';
            document.getElementById('news-articles').innerHTML=output;
-       } else if(result.totalResults==0){
-    let noResultsFound=document.querySelector(" #news-section");
-    noResultsFound.innerHTML=`<h3> ${usersearch } ??? No such article found.</h3> `;
-       }
+       } else if(result.articles.length===0){
+    let noResultsFound=document.querySelector(".not-found");
+    noResultsFound.innerHTML=`<h3 ${usersearch } No article was found based on the search.</h3> `;    
+}
    };
    getNews(url);
    
