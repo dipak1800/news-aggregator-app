@@ -42,8 +42,8 @@
                console.log(usersearch);
                beforeLoading();
                getNews(url); 
-           }
-       }   
+           
+        }
    });
    var loadingUntil;
 
@@ -96,9 +96,9 @@
            });
            output += '';
            document.getElementById('news-articles').innerHTML=output;
-       } else if(result.articles.length===0){
+       } else if(result.articles.length == 0){
     let noResultsFound=document.querySelector(".not-found");
-    noResultsFound.innerHTML=`<h3 ${usersearch } No article was found based on the search.</h3> `;    
+    noResultsFound.innerHTML=`<h3>No article was found based on the search.</h3> `;    
 }
    };
    getNews(url);
