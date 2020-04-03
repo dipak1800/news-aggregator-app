@@ -42,7 +42,7 @@
                console.log(usersearch);
                beforeLoading();
                getNews(url); 
-           
+           }  
         }
    });
    var loadingUntil;
