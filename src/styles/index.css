@@ -191,3 +191,6 @@ marquee{
   color:transparent;
   background-color: transparent;
 }
+.not-found{
+  display:none;
+}
